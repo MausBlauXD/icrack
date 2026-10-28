@@ -1,0 +1,14 @@
+:root { --bg: #0d0e12; --panel: #1a1b20; --text: #f2f2f4; --muted: #a8a9b0; --gold: #f2bd4d; --gold-dark: #8c611f; }
+* { box-sizing: border-box; }
+body { margin: 0; background: radial-gradient(ellipse at top, #2a2116 0%, var(--bg) 60%); color: var(--text);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; min-height: 100vh; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+header { text-align: center; margin-bottom: 36px; }
+header img { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 12px 30px rgba(0,0,0,.6); }
+h1 { font-family: "Futura", "Futura-CondensedExtraBold", "Arial Narrow", sans-serif; font-weight: 800; letter-spacing: .04em;
+  font-size: 44px; margin: 18px 0 4px; background: linear-gradient(#ffe08c, var(--gold), var(--gold-dark)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+h2 { color: var(--gold); font-size: 21px; margin: 32px 0 8px; }
+.tag { color: var(--muted); margin: 0; }
+section { background: var(--panel); border: 1px solid rgba(242,189,77,.35); border-radius: 18px; padding: 8px 24px 20px; margin-top: 20px; }
+a { color: var(--gold); }
+footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 40px; }
